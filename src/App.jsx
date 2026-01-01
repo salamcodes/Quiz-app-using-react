@@ -66,7 +66,7 @@ function App() {
             <h1 className="text-2xl font-bold text-gray-800">Quiz App</h1>
             <span className="text-sm text-gray-500">{index + 1} / 10</span>
           </div>
-          {loading && <h1>Loadding</h1>}
+          {loading && <h1>Loadding...</h1>}
           {error && <h1>Error Occured</h1>}
           {result && <h1>Final Score : {marks}</h1>}
           {!loading && !error && data && !result && (
