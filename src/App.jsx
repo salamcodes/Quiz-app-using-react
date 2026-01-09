@@ -58,7 +58,7 @@ function App() {
 
 
 
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center m-25'>
         <div className="bg-white w-full max-w-xl rounded-2xl shadow-2xl p-6">
 
 
@@ -87,7 +87,7 @@ function App() {
           })}
 
           <div className="flex justify-between items-center mt-6">
-            <button className="bg-indigo-600 text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition" onClick={changeIndex}>
+            <button className="bg-indigo-600 text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition cursor-pointer" onClick={changeIndex}>
               Next
             </button>
           </div>
